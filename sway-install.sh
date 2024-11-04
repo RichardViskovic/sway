@@ -35,6 +35,10 @@ fi
 echo "Enabling the Greetd service..."
 systemctl -f enable greetd.service
 
+# Enable Bluetooth
+echo "Enabling the Bluetooth service..."
+systemctl -f enable bluetooth.service
+
 # Remove the repo
 echo "Removing the EOS Community Sway repo..."
 rm -rf ../sway
