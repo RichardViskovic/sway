@@ -12,7 +12,6 @@ fuzzel
 greetd
 greetd-regreet
 grim
-gtk-engine-murrine
 gtk-layer-shell
 gtklock
 gtklock-powerbar-module
